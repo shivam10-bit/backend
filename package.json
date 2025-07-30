@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "blogapp",
+=======
+  "name": "todoapp",
+>>>>>>> d64c09428fec3b7d3b778e7660442f824d29c50c
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -13,7 +17,11 @@
   "dependencies": {
     "dotenv": "^16.6.1",
     "express": "^4.18.2",
+<<<<<<< HEAD
     "mongoose": "^7.0.4",
+=======
+    "mongoose": "^7.8.7",
+>>>>>>> d64c09428fec3b7d3b778e7660442f824d29c50c
     "nodemon": "^2.0.22"
   },
   "type": "commonjs"
