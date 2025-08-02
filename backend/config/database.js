@@ -11,6 +11,9 @@ const dbConnect = () => {
 		.connect(process.env.MONGODB_URL, {
 			useNewUrlParser: true,
 			useUnifiedTopology: true,
+
+
+			//PUSH
 		})
 		// If the connection is successful, log a success message
 		.then(() => console.log("DB CONNECTED"))
