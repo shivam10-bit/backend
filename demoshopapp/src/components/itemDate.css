@@ -1,0 +1,28 @@
+.mfg-date {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ececec;
+    background-color: #2a2a2a;
+    color: white;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.mfg-date span {
+    margin: 2px;
+    font-size: 1rem;
+}
+
+.mfg-date span:first-child {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mfg-date span:last-child {
+    font-size: 0.8rem;
+    color: #a1a1a1;
+}
